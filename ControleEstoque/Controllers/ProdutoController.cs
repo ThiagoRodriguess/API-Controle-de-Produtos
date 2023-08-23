@@ -37,6 +37,18 @@ namespace ControleEstoque.Controllers
             return Ok(produto);
         }
 
+        [HttpGet("searchByName/{ProdutoName}")]
+        public async Task<ActionResult<List<Produto>>> SearchProduto(string ProdutoName)
+        {
+            using var db = new SqlConnection(_config.GetConnectionString("DefaultConnection"));
+            var produtos = await db.QueryAsync<Produto>("SELECT * FROM Produto WHERE Name LIKE @Name", new { Name = "%" + ProdutoName + "%" });
+            if (produtos == null)
+            {
+                return NotFound();
+            }
+            return Ok(produtos);
+        }
+
         [HttpPost]
         public async Task<ActionResult<List<Produto>>> CreateProduto(Produto produto)
         {
