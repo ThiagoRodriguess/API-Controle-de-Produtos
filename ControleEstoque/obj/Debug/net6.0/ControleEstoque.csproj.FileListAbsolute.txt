@@ -80,3 +80,16 @@ C:\Users\thiag\source\repos\Ploomes-PS\ControleEstoque\obj\Debug\net6.0\refint\C
 C:\Users\thiag\source\repos\Ploomes-PS\ControleEstoque\obj\Debug\net6.0\ControleEstoque.pdb
 C:\Users\thiag\source\repos\Ploomes-PS\ControleEstoque\obj\Debug\net6.0\ControleEstoque.genruntimeconfig.cache
 C:\Users\thiag\source\repos\Ploomes-PS\ControleEstoque\obj\Debug\net6.0\ref\ControleEstoque.dll
+C:\Users\thiag\source\repos\Ploomes-PS\ControleEstoque\bin\Debug\net6.0\BCrypt.Net-Next.dll
+C:\Users\thiag\source\repos\Ploomes-PS\ControleEstoque\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\thiag\source\repos\Ploomes-PS\ControleEstoque\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\thiag\source\repos\Ploomes-PS\ControleEstoque\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\thiag\source\repos\Ploomes-PS\ControleEstoque\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\thiag\source\repos\Ploomes-PS\ControleEstoque\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\thiag\source\repos\Ploomes-PS\ControleEstoque\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\thiag\source\repos\Ploomes-PS\ControleEstoque\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\thiag\source\repos\Ploomes-PS\ControleEstoque\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\thiag\source\repos\Ploomes-PS\ControleEstoque\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\thiag\source\repos\Ploomes-PS\ControleEstoque\bin\Debug\net6.0\Scrutor.dll
+C:\Users\thiag\source\repos\Ploomes-PS\ControleEstoque\bin\Debug\net6.0\Swashbuckle.AspNetCore.Filters.dll
+C:\Users\thiag\source\repos\Ploomes-PS\ControleEstoque\bin\Debug\net6.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
