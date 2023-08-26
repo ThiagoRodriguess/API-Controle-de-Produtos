@@ -50,7 +50,7 @@ Antes de executar a API, você precisará configurar o banco de dados. Siga as e
        Quantidade INT NOT NULL
    );
    
-Agora, você pode usar a string de conexão no arquivo `appsettings.json` ou `appsettings.Development.json` para que a API possa se conectar a esse banco de dados:
+Agora, você pode usar a string de conexão, que já se encontra no arquivo `appsettings.json` ou `appsettings.Development.json` para que a API possa se conectar a esse banco de dados:
 
 ```json
 {
