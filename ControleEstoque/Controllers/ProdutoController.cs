@@ -19,7 +19,7 @@ namespace ControleEstoque.Controllers
             _config = config;
 
         }
-            
+
         [HttpGet]
         public async Task<ActionResult<List<Produto>>> GetAllProduto()
         {
@@ -40,7 +40,6 @@ namespace ControleEstoque.Controllers
             return Ok(produto);
         }
 
-        // retorna somente o produto que contém o nome pesquisado
         [HttpGet("searchByName/{Name}")]
         public async Task<ActionResult<List<Produto>>> GetProdutoByName(string Name)
         {
@@ -53,7 +52,6 @@ namespace ControleEstoque.Controllers
             return Ok(produto);
         }
 
-        // selecionar uma lista de produtos que contém o preço pesquisado
         [HttpGet("searchByPrice/{Price}")]
         public async Task<ActionResult<List<Produto>>> GetProdutoByPrice(double Price)
         {
@@ -65,7 +63,7 @@ namespace ControleEstoque.Controllers
             }
             return Ok(produtos);
         }
-        
+
         [HttpGet("searchByQuantity/{Quantity}")]
         public async Task<ActionResult<List<Produto>>> GetProdutoByQuantity(int Quantity)
         {
@@ -77,7 +75,7 @@ namespace ControleEstoque.Controllers
             }
             return Ok(produtos);
         }
-      
+
         [HttpPost, Authorize(Roles = "Admin")]
         public async Task<ActionResult<List<Produto>>> CreateProduto(Produto produto)
         {
